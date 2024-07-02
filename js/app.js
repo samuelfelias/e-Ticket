@@ -1,10 +1,10 @@
-qntdPista = document.getElementById("qtd-pista").textContent
-qntdSuperior = document.getElementById("qtd-superior").textContent
-qntdInferior = document.getElementById("qtd-inferior").textContent
+let qntdPista = document.getElementById("qtd-pista").textContent
+let qntdSuperior = document.getElementById("qtd-superior").textContent
+let qntdInferior = document.getElementById("qtd-inferior").textContent
 function comprar(){
     
-    qntdDesejada = document.getElementById("qtd").value
-    opc = document.getElementById("tipo-ingresso").value
+    let qntdDesejada = document.getElementById("qtd").value
+    let opc = document.getElementById("tipo-ingresso").value
 
 
     if(opc == "inferior"){
@@ -35,8 +35,4 @@ function comprar(){
         }
     }
     document.getElementById("qtd").value = ""
-}
-
-function imprimirInferior(){
-    
 }
